@@ -1,21 +1,50 @@
-# Restaurant-Management-System
-- This is a java Based Restaurant System using MySql Database or (Other database also if you want)
 
-###  Recommended 
-- Run this folder in Eclipse IDE 
+# 🍽️ Restaurant Management System
+A Java-based Restaurant Management System with MySQL integration. This system offers streamlined operations for restaurant staff, including separate login functionalities for managers and employees.
 
-- Include MySQL connector & Calender jar file in class path 
-    - mysql-connector-java-8.0.13.jar
-    - jcalendar-tz-1.3.3-4.jar
 
-- create MySQL database and connect it appropriately 
-    the script is included in the database folder 
-    open mysql workbench or php to run the script 
 
-- Run login.java 
-    There are two logins 
-    - managaer login giving access to manager 
-    - another is employee login for employees other than manager
-    - Also there is option to register to manager  
+
+
+## Features:
+* Manager and Employee login systems
+* Registration for new managers
+* Easy-to-use interface for restaurant operations
+* MySQL database integration for data storage
+
+## Recommended Setup
+
+#### 1. IDE: Run the project in Eclipse IDE for the best experience.
+
+#### 2. Dependencies: Ensure to include the following jar files in your class path:
+
+```bash
+    mysql-connector-java-8.0.13.jar (MySQL connection)
+    jcalendar-tz-1.3.3-4.jar (Date and Time functionality)
+```
+#### 3. Database Setup:
+
+* Create a MySQL database by running the script included in the database folder.
+* Use MySQL Workbench or phpMyAdmin to execute the script.
+* Configure the database connection in the project settings accordingly.
+
+
+
+
+
+
+
+## 🛠️ How to Run
+
+Run the Login.java file.
+Choose between the following login options:
+
+    Manager Login: Provides full access to the restaurant’s management features.
+    Employee Login: Limited access for staff other than the manager.
+    Register new managers using the Register option.
+
+
+
+
 
 
